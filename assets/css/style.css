@@ -1,0 +1,156 @@
+#body {
+    background-image: url("../images/asanoha-400px/asanoha-400px.png");
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+.h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #cc919a;
+}
+
+.heading {
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    color: #cc919a;
+}
+
+/* Navbar Links */
+
+li {
+    float: right;
+    padding-left: 5px;
+    color: #777777;
+}
+
+ul {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    opacity: 0.75;
+}
+
+/* About Page */
+
+.card {
+    margin: 0 auto;
+}
+.about {
+    background-color: #ffffff;
+    color: #777777;
+    border-color: 2px #777777;
+}
+
+h2 {
+    color: #cc919a;
+    font-size: 24px;
+    padding: 5px 0px 15px 0px;
+    border-bottom: 2px solid #cccccc;
+}
+
+/* Portfolio Page */
+.portfolio {
+    width: 100%;
+    position: relative;
+    padding: 20px 20px 10px 0px; 
+}
+
+.portfolioView {
+    width: 220px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+h3 {
+    height: 30px;
+    width: 220px;
+    background: #cc919a;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#legend {
+    position: absolute;
+    top: 150px;
+}
+
+#lucius {
+    position: absolute;
+    left: 245px;
+    top: 150px;
+}
+
+#catmouse {
+    position: absolute;
+    right: 229.5px;
+    top: 150px;
+}
+
+/* Contact Page */
+
+button {
+    background: #cc919a; 
+    color: #ffffff;
+}
+
+/* Footer */
+.container-fluid {
+    position: fixed;
+    bottom: 0;
+    height: 4rem;
+    background-color: #666666;
+    border-top: 4px solid #cc919a;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.75;
+    font-size: 12px;
+}
+
+/* Pseudo States */
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visted {
+    color: #e5a3ad;
+}
+
+a:hover {
+    color: #cc919a;
+}
+
+a:focus {
+    color: #b27f87;
+}
+
+a:active {
+    color: #ffb6c1;
+}
+
+button:hover {
+    background: #e5a3ad;
+}
+
+button:focus {
+    background: #b27f87;
+}
+
+button:active {
+    background: #cc919a;
+}
